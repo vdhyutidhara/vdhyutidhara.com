@@ -1,4 +1,48 @@
+@font-face {
+    font-family: ogg;
+    src: url(./Footer/Ogg-Roman.otf) format("opentype");
+}
+
 .header {
-    height: 200px;
+    height: 400px;
+    margin: auto;
+    width: 95vw;
+}
+
+.headerText {
+    font-family: ogg,sans-serif;
+    font-size: 75px;
+    line-height: 86px;
+    letter-spacing: 0;
     width: 100%;
+    max-width: 23ch;
+    font-weight: 400;
+    text-align: left;
+}
+
+.headerText a {
+    padding-bottom: 4px;
+    background-image: repeating-linear-gradient(-45deg,#ffb400,#ffb400 1px,transparent 0,transparent 12px),repeating-linear-gradient(45deg,#ffb400,#ffb400 1px,transparent 0,transparent 12.2px);
+    background-position: 0 103%,2px 103%;
+    background-size: 17px 10px;
+    background-repeat: repeat-x;
+    animation: b .8s infinite normal;
+    animation-timing-function: linear;
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+}
+
+.b {
+    animation-play-state: running;
+}
+
+@keyframes b {
+   0% { 
+    backgroundPositionX: 0,2px;
+   }
+
+    100% {
+        backgroundPositionX: 17px,19px; 
+    }
 }

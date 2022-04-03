@@ -8,10 +8,6 @@
     src: url(./Footer/ApercuMono.ttf) format("truetype");
 }
 
-* {
-    box-sizing: border-box;
-}
-
 .footer__row {
     background-image: repeating-linear-gradient(-74deg,rgba(0,0,0,.2),rgba(0,0,0,.2) 1px,transparent 0,transparent 4px),repeating-linear-gradient(-74deg,rgba(0,0,0,.2),rgba(0,0,0,.2) 1px,transparent 0,transparent 4px);
     padding: 7px;
@@ -59,6 +55,7 @@
     grid-gap: 60px 60px;
     width: 95vw;
     margin: 60px auto;
+    font-family: apercu-mono, sans-serif;
 }
 
 .socialBox {

@@ -1,4 +1,103 @@
+@font-face {
+    font-family: ogg;
+    src: url(./Footer/Ogg-Roman.otf) format("opentype");
+}
+
+@font-face {
+    font-family: apercu-mono;
+    src: url(./Footer/ApercuMono.ttf) format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
 .main {
-    height: 300px;
-    width: 100vw;
+    height: auto;
+    width: 95vw;
+    margin: auto;
+    text-align: left;
+}
+
+.mainHeading h3 {
+    font-family: ogg,sans-serif;
+    font-size: 90px;
+    width: 100%;
+    font-weight: 100;
+    line-height: 0px;
+    text-align: center;
+}
+
+.mainHeading {
+    height: auto;
+}
+
+.mainHeading>div {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 60px 60px;
+    width: 95vw;
+    margin: 60px auto;
+}
+
+.projectCard {
+    padding: 55px;
+    background-image: linear-gradient(90deg,#000 50%,transparent 0),linear-gradient(90deg,#000 50%,transparent 0),linear-gradient(180deg,#000 50%,transparent 0),linear-gradient(180deg,#000 50%,transparent 0);
+    background-position: 0 0,0 100%,0 0,100% 0;
+    background-repeat: repeat-x,repeat-x,repeat-y,repeat-y;
+    background-size: 30px 1px,30px 1px,1px 30px,1px 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: .4s infinite normal a;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+    position: relative;
+}
+
+.projectCard:hover {
+    animation-play-state: running;
+}
+
+@keyframes a {
+    0% {
+        background-position: 0 0,0 100%,0 0,100% 0;
+    }
+    
+    100% {
+        background-position: 30px 0,-30px 100%,0 -30px,100% 30px;
+    }
+}
+
+.tech h3{
+    font-family: ogg,sans-serif;
+    font-size: 100px;
+    line-height: 0px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.headingHr {
+    position: relative;
+    padding: 75px 0 100px;
+    background-image: linear-gradient(90deg,#000 50%,transparent 0),linear-gradient(90deg,#000 50%,transparent 0),linear-gradient(90deg,#000 50%,transparent 0),linear-gradient(90deg,#000 50%,transparent 0);
+    background-position: 0 0,0 100%,left 14px,0 calc(100% - 14px);
+    background-repeat: repeat-x,repeat-x,repeat-x,repeat-x;
+    background-size: 24px 1px,24px 1px,24px 1px,24px 1px;
+    animation: .8s infinite normal c;
+    animation-timing-function: linear;
+}
+
+c {
+    animation-play-state: running;
+}
+
+@keyframes c {
+    0% {
+        background-position-x: 0,0;
+    }
+    100% {
+        background-position-x: 24px,-24px;
+    }
 }
