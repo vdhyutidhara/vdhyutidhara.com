@@ -1,0 +1,36 @@
+@font-face {
+  font-family: ogg;
+  src: url(../../utils/Fonts/Ogg-Roman.otf) format("opentype");
+}
+
+.header {
+  height: 40vw;
+  margin: 1rem auto;
+  width: 95vw;
+  padding: 1rem;
+  border: 5px dashed red;
+}
+
+.headerText {
+  font-family: ogg, sans-serif;
+  font-size: 4rem;
+  line-height: 4rem;
+  letter-spacing: 0;
+  width: 100%;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* .headerText p {
+ 
+} */
+
+@keyframes b {
+  0% {
+    backgroundpositionx: 0, 2px;
+  }
+
+  100% {
+    backgroundpositionx: 17px, 19px;
+  }
+}

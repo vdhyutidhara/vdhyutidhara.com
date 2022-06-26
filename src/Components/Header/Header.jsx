@@ -6,9 +6,12 @@ export default function Header() {
     <div className={styles.header}>
       <section>
         <h1 className={styles.headerText}>
-          Hello, My name is <a href="#"> Vinay Gupta</a>. I am from Earth.
+          Hello, My name is <span> Vinay Gupta</span>.
+          <br />I am from Earth.
+          <br />
           It's feel nice to see you here.
-          Scroll below to know something interesting about me.
+          <br />
+          Please scroll below.
         </h1>
       </section>
     </div>

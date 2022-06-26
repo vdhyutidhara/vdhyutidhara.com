@@ -3,8 +3,10 @@ import styles from "./Footer.module.css";
 
 export default function Footer() {
   return (
-    <div>
+    <div className={styles.footer}>
+      {/* HR Design */}
       <div className={styles.footer__row}></div>
+      {/* Resume Interested */}
       <section class={styles.interested}>
         <p>Interested in hiring me?</p>
         <a href="#">Click Me!</a>
