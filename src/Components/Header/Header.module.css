@@ -4,33 +4,38 @@
 }
 
 .header {
-  height: 40vw;
-  margin: 1rem auto;
   width: 95vw;
-  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   border: 5px dashed red;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+
+.headerNycMap {
+  width: 45vw;
+}
+
+.nycMap {
+  width: auto;
+  height: 100%;
+  border-radius: 10px;
 }
 
 .headerText {
-  font-family: ogg, sans-serif;
-  font-size: 4rem;
-  line-height: 4rem;
-  letter-spacing: 0;
-  width: 100%;
-  font-weight: 400;
-  text-align: left;
+  width: 45vw;
+
+  border: 1px solid blue;
 }
 
-/* .headerText p {
- 
-} */
+.headerText p {
+  font-family: ogg, sans-serif;
+  font-weight: 400;
+}
 
-@keyframes b {
-  0% {
-    backgroundpositionx: 0, 2px;
-  }
-
-  100% {
-    backgroundpositionx: 17px, 19px;
-  }
+.headerText img {
+  width: auto;
+  height: 50%;
+  border-radius: 10px;
 }
