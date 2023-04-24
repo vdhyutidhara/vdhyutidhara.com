@@ -9,10 +9,9 @@
 }
 
 .footer {
- width: 95vw;;
-  border: 5px dashed cyan;
-  margin: 1rem auto;
-  padding: 1rem;
+ width: 95vw;
+ margin: 1rem auto;
+ padding: 1rem;
 }
 
 .footer__row {
@@ -45,7 +44,7 @@
 }
 
 .interested p {
-  line-height: 0px;
+  line-height: 1em;
 }
 
 .interested a {

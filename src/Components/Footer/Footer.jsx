@@ -8,8 +8,8 @@ export default function Footer() {
       <div className={styles.footer__row}></div>
       {/* Resume Interested */}
       <section class={styles.interested}>
-        <p>Interested in hiring me?</p>
-        <a href="#">Click Me!</a>
+        <p>Interested in hiring?</p>
+        <a href="https://drive.google.com/file/d/1o0SYqHYgN_3t0BZgVPyzcOwpHWLv-SNn/view?usp=share_link">Click Me!</a>
       </section>
       <div className={styles.footer__row}></div>
       {/* Social Media Starts */}
