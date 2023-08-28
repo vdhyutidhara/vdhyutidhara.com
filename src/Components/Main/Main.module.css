@@ -23,9 +23,9 @@
 /* THINGS I MADE */
 .mainHeading h3 {
   font-family: ogg, sans-serif;
-  font-size: 4.5rem;
+  font-size: 4rem;
   width: 100%;
-  font-weight: 600;
+  font-weight: 100;
   text-align: center;
 }
 
@@ -76,9 +76,9 @@
 }
 .tech h3 {
   font-family: ogg, sans-serif;
-  font-size: 4.5rem;
+  font-size: 4rem;
   text-align: center;
-  font-weight: 600;
+  font-weight: 100;
   padding-bottom: 3rem;
 }
 
