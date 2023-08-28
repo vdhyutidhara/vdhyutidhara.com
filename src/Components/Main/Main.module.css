@@ -84,8 +84,8 @@
 }
 
 .headingHr {
-  position: relative;
-  padding: 75px 0 100px;
+  /* position: relative; */
+  /* padding: 75px 0 100px;
   background-image: linear-gradient(90deg, #000 50%, transparent 0),
     linear-gradient(90deg, #000 50%, transparent 0),
     linear-gradient(90deg, #000 50%, transparent 0),
@@ -94,11 +94,11 @@
   background-repeat: repeat-x, repeat-x, repeat-x, repeat-x;
   background-size: 24px 1px, 24px 1px, 24px 1px, 24px 1px;
   animation: 0.8s infinite normal c;
-  animation-timing-function: linear;
-  display: flex;
-  flex-direction: row;
+  animation-timing-function: linear; */
+  display: grid;
+  /* flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
 }
 
 .headingHr > img {
