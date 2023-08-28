@@ -9,9 +9,9 @@
 }
 
 .footer {
- width: 95vw;
- margin: 1rem auto;
- padding: 1rem;
+  width: 95vw;
+  margin: 1rem auto;
+  padding: 1rem;
 }
 
 .footer__row {
@@ -71,10 +71,10 @@
 
 .social {
   display: grid;
-  grid-template-columns: repeat(4, 20%);
-  grid-gap: 60px 60px;
-  width: 95vw;
-  margin: 60px auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5rem;
+  width: 90vw;
+  margin: 5rem auto;
   font-family: apercu-mono, sans-serif;
 }
 
@@ -85,7 +85,7 @@
 }
 
 .socialBoxItem {
-  padding: 55px;
+  padding: 2rem;
   background-image: linear-gradient(90deg, #000 50%, transparent 0),
     linear-gradient(90deg, #000 50%, transparent 0),
     linear-gradient(180deg, #000 50%, transparent 0),
@@ -97,10 +97,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   animation: 0.4s infinite normal a;
   animation-timing-function: linear;
   animation-play-state: paused;
-  position: relative;
 }
 
 .socialBoxItem:hover {
@@ -118,7 +118,7 @@
 }
 
 .inspiration {
-  margin: 0 0 10px 80vw;
-  text-decoration: none;
+  font-family: apercu-mono, sans-serif;
   color: black;
+  margin: 1rem;
 }

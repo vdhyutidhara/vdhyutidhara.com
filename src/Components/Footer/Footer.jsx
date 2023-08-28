@@ -22,6 +22,7 @@ export default function Footer() {
           href="mailto:vinay.dhyutidhara.com"
         >
           <div className={styles.socialBoxItem}>
+            <img src="https://img.icons8.com/?size=2x&id=12580&format=png" alt="email-icon" />
             <p>Email me</p>
           </div>
         </a>
@@ -33,8 +34,9 @@ export default function Footer() {
           href="https://www.github.com/vdhyutidhara"
         >
           <div className={styles.socialBoxItem}>
+            <img src="https://img.icons8.com/?size=2x&id=AZOZNnY73haj&format=png" alt="github-icon" />
             <p>
-              Follow me <br /> on GitHub
+              Follow on GitHub
             </p>
           </div>
         </a>
@@ -43,39 +45,27 @@ export default function Footer() {
           className={styles.socialBox}
           target="_blank"
           rel="noreferrer"
-          href="https://www.linkedin.com/vdhyutidhara"
+          href="https://www.linkedin.com/in/vdhyutidhara"
         >
           <div className={styles.socialBoxItem}>
+            <img src="https://img.icons8.com/?size=2x&id=447&format=png" alt="" />
             <p>
-              Follow me <br /> on LinkedIn
-            </p>
-          </div>
-        </a>
-        {/* Twitter */}
-        <a
-          className={styles.socialBox}
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.twitter.com/vdhyutidhara"
-        >
-          <div className={styles.socialBoxItem}>
-            <p>
-              Follow me <br /> on Twitter
+              Follow on LinkedIn
             </p>
           </div>
         </a>
         {/* Social Media Ends */}
       </section>
-      {/* <section>
+      <section>
         <a
           className={styles.inspiration}
           href="https://canalstreet.market/"
           target="_blank"
           rel="noreferrer"
         >
-          Site Design Inspiration
+          Design Inspiration from Canal Street Market 2022
         </a>
-      </section> */}
-    </div>
+      </section>
+    </div >
   );
 }
