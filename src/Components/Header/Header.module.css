@@ -4,18 +4,52 @@
 }
 
 .header {
-  width: 95vw;
+  width: 90vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
   margin: 1rem auto;
 }
 
+.gurgaonMap {
+  padding: 1rem;
+  background-image: linear-gradient(90deg, #000 50%, transparent 0),
+    linear-gradient(90deg, #000 50%, transparent 0),
+    linear-gradient(180deg, #000 50%, transparent 0),
+    linear-gradient(180deg, #000 50%, transparent 0);
+  background-position: 0 0, 0 100%, 0 0, 100% 0;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 30px 1px, 30px 1px, 1px 30px, 1px 30px;
+  height: 100%;
+  animation: 0.4s infinite normal a;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+  position: relative;
+}
+
+.gurgaonMap:hover {
+  animation-play-state: running;
+}
+
+@keyframes a {
+  0% {
+    background-position: 0 0, 0 100%, 0 0, 100% 0;
+  }
+
+  100% {
+    background-position: 30px 0, -30px 100%, 0 -30px, 100% 30px;
+  }
+}
+
+.gurgaonMap > img {
+  width: 30rem;
+  height: auto;
+}
 
 .headerText {
-  width: auto;
+  width: 60%;
+  margin: auto 5rem;
   font-family: ogg, sans-serif;
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 4rem;
 }

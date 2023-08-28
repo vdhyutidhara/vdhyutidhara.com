@@ -4,9 +4,12 @@ import styles from "./Header.module.css";
 export default function Header() {
   return (
     <div className={styles.header}>
+      <div className={styles.gurgaonMap}>
+        <img src="./images/gurgaon-map.png" alt="gurgaon-map" />
+      </div>
       <div className={styles.headerText}>
-        Hi, I am Vinay Gupta.
-        <br />Front End Developer from Earth.
+        <p>Hi, I am Vinay Gupta.</p>
+        <p>Front End Developer from Gurgaon.</p>
       </div>
     </div>
   );
