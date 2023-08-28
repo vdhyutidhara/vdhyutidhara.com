@@ -7,7 +7,7 @@ export default function Footer() {
       {/* HR Design */}
       <div className={styles.footer__row}></div>
       {/* Resume Interested */}
-      <section class={styles.interested}>
+      <section className={styles.interested}>
         <p>Interested in hiring?</p>
         <a href="https://drive.google.com/file/d/1o0SYqHYgN_3t0BZgVPyzcOwpHWLv-SNn/view?usp=share_link">Click Me!</a>
       </section>
