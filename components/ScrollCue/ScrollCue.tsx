@@ -23,7 +23,7 @@ export default function ScrollCue() {
       <div ref={sentinelRef} className="absolute bottom-0 h-px w-px" />
       <div
         aria-hidden="true"
-        className="font-mono text-xs text-ink-faint flex items-center gap-2 transition-opacity duration-500"
+        className="font-mono text-md text-ink-faint flex items-center gap-2 transition-opacity duration-500"
         style={{ opacity: visible ? 1 : 0 }}
       >
         <span>scroll</span>

@@ -70,7 +70,7 @@ Global navigation bar. Fixed to the top. Transparent over the hero, gains backgr
 ```
 <nav>                         fixed top-0 z-40, transparent → bg-bg border-b on scroll
   <div>                       w-[90vw] mx-auto px-4 h-14 flex items-center justify-between
-    <Link>  "VKG"             Logo pill: px-3 h-9 border rounded-full font-mono text-sm
+    <Link>  "V"             Logo pill: px-3 h-9 border rounded-full font-mono text-sm
     <div>                     flex items-center gap-6
       <Link> × 4              font-mono text-sm text-ink-muted hover:text-ink — hidden on mobile
       <button>  ☀/🌙          16×16 SVG, aria-label updates with state
@@ -192,7 +192,7 @@ Two zones: hire CTA section and bottom bar.
   [Hire section]              mb-16
     <hr>                      thin-rule mb-12
     <div>                     flex items-end justify-between flex-wrap
-      <p>  "Interested to know more about me?"   font-heading 3.5rem light / 2.25rem mobile
+      <p>  "Interested to know more?"   font-heading 3.5rem light / 2.25rem mobile
       <Link>  "Resume →"             CTA link pattern
 
   [Bottom bar]

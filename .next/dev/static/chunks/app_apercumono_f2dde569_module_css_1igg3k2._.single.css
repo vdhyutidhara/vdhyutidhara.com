@@ -1,0 +1,27 @@
+/* [project]/app/apercumono_f2dde569.module.css [app-client] (css) */
+@font-face {
+  font-family: apercuMono;
+  src: url("../media/ApercuMono-s.p.16fjitg_x10fp.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: apercuMono Fallback;
+  src: local(Arial);
+  ascent-override: 69.84%;
+  descent-override: 17.3%;
+  line-gap-override: 1.99%;
+  size-adjust: 135.87%;
+}
+
+.apercumono_f2dde569-module__15i2Qa__className {
+  font-family: apercuMono, apercuMono Fallback;
+  font-weight: 400;
+}
+
+.apercumono_f2dde569-module__15i2Qa__variable {
+  --font-apercu-mono: "apercuMono", "apercuMono Fallback";
+}
+
+/*# sourceMappingURL=app_apercumono_f2dde569_module_css_1igg3k2._.single.css.map*/

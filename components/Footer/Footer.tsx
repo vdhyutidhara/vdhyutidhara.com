@@ -9,7 +9,7 @@ export default function Footer() {
         <hr className="thin-rule mb-12" />
         <div className="flex items-end justify-between gap-8 flex-wrap max-sm:flex-col max-sm:items-start">
           <p className="font-heading text-[3.5rem] font-light leading-none tracking-tight max-sm:text-[2.25rem]">
-            Interested to know more about me?
+            Interested to know more?
           </p>
           <Link
             href="/resume"

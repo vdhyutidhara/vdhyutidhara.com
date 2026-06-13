@@ -3,7 +3,7 @@ import ScrollCue from "@/components/ScrollCue/ScrollCue";
 const socialLinks = [
   {
     label: "Email",
-    href: "mailto:vinay@vdhyutidhara.com",
+    href: "mailto:vinay.dhyutidhara.com",
     icon: (
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
         <rect x="2" y="4" width="20" height="16" rx="2" />
@@ -70,16 +70,13 @@ export default function Header() {
                 href={href}
                 target={href.startsWith("mailto") ? undefined : "_blank"}
                 rel={href.startsWith("mailto") ? undefined : "noreferrer"}
-                className="flex items-center gap-2 font-mono text-sm text-ink-faint hover:text-ink transition-colors px-4 first:pl-0 group"
+                className="flex items-center gap-2 font-mono text-md text-ink-faint hover:text-ink transition-colors px-4 first:pl-0 group"
               >
                 <span className="opacity-50 group-hover:opacity-100 transition-opacity" aria-hidden="true">
                   {icon}
                 </span>
                 {label}
               </a>
-              {i < socialLinks.length - 1 && (
-                <span className="text-ink-faint select-none text-xs" aria-hidden="true">|</span>
-              )}
             </span>
           ))}
         </nav>

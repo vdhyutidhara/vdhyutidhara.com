@@ -68,7 +68,7 @@ const skills: { label: string; items: string }[] = [
   { label: "AI", items: "Agent-Assisted Coding, Claude Code (Hooks & Skills), MCP" },
   {
     label: "Tools & Others",
-    items: "Vite, Webpack, REST API, Git, GitHub, Agile, Scrum, Docker (Basic), Kubernetes (Basic), Maven",
+    items: "Vite, Webpack, REST API, Git, GitHub, Agile, Scrum, Docker, Kubernetes, Maven",
   },
 ];
 
@@ -76,7 +76,7 @@ const education = [
   {
     degree: "B.Tech — Electrical and Electronics Engineering",
     institution: "Dr. APJ Abdul Kalam Technical University",
-    year: "2021",
+    year: "2018",
   },
 ];
 
@@ -91,45 +91,13 @@ export default function ResumePage() {
       </Link>
 
       {/* Header */}
-      <header className="mt-12 mb-16">
+      <header className="mt-12 mb-12">
         <h1 className="font-heading text-[3rem] font-light leading-tight max-sm:text-[2rem]">
           Vinay Kumar Gupta
         </h1>
         <p className="font-mono text-sm text-ink-muted mt-2">
           Inclusive Software Engineer · Bangalore, India
         </p>
-        <div className="flex flex-wrap gap-6 mt-4 font-mono text-sm text-ink-faint">
-          <a
-            href="mailto:vinay.dhyutidhara@gmail.com"
-            className="border-b border-border pb-px hover:opacity-50 transition-opacity"
-          >
-            vinay.dhyutidhara@gmail.com
-          </a>
-          <a
-            href="https://vdhyutidhara.com"
-            target="_blank"
-            rel="noreferrer"
-            className="border-b border-border pb-px hover:opacity-50 transition-opacity"
-          >
-            vdhyutidhara.com
-          </a>
-          <a
-            href="https://github.com/vdhyutidhara"
-            target="_blank"
-            rel="noreferrer"
-            className="border-b border-border pb-px hover:opacity-50 transition-opacity"
-          >
-            github.com/vdhyutidhara
-          </a>
-          <a
-            href="https://linkedin.com/in/vdhyutidhara"
-            target="_blank"
-            rel="noreferrer"
-            className="border-b border-border pb-px hover:opacity-50 transition-opacity"
-          >
-            linkedin.com/in/vdhyutidhara
-          </a>
-        </div>
       </header>
 
       {/* Experience */}
@@ -248,14 +216,6 @@ export default function ResumePage() {
       {/* Footer pointer */}
       <section className="border-t border-border pt-8">
         <p className="font-mono text-sm text-ink-muted">
-          Selected work and writing at{" "}
-          <Link
-            href="/"
-            className="text-ink border-b border-border pb-px hover:opacity-50 transition-opacity"
-          >
-            vdhyutidhara.com
-          </Link>
-          .
         </p>
       </section>
     </div>

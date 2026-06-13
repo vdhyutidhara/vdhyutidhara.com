@@ -1,0 +1,11 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/app/page": [
+      "static/media/Ogg_Roman-s.p.2uud4z4pecvii.otf",
+      "static/media/ApercuMono-s.p.16fjitg_x10fp.ttf"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

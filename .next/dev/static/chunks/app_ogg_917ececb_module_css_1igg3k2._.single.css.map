@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/ogg_917ececb.module.css"],"sourcesContent":["@font-face {\n    \nfont-family: 'ogg';\n    src: url('@vercel/turbopack-next/internal/font/local/font?{%22path%22:%22../public/fonts/Ogg-Roman.otf%22,%22preload%22:true,%22has_size_adjust%22:true}') format('opentype');\n    font-display: swap;\n    \nfont-weight: 100 400;\n}\n\n@font-face {\n    font-family: 'ogg Fallback';\n    src: local(\"Arial\");\n    ascent-override: 111.12%;\ndescent-override: 40.14%;\nline-gap-override: 0.00%;\nsize-adjust: 102.14%;\n\n}\n\n.className {\n    font-family: 'ogg', 'ogg Fallback';\n    \n}\n.variable {\n    --font-ogg: 'ogg', 'ogg Fallback';\n}\n\n"],"names":[],"mappings":"AAAA;;;;;;;AASA;;;;;;;;;AAUA;;;;AAIA"}}]
+}
