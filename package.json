@@ -1,42 +1,29 @@
 {
-  "name": "portfolio",
+  "name": "vdhyutidhara-next",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.3",
-    "@testing-library/react": "^12.1.4",
-    "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.1.3",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.4.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.0",
-    "update": "^0.7.4",
-    "upgrade": "^1.1.0",
-    "web-vitals": "^2.1.4"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "marked": "^18.0.5",
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.1",
+    "@types/marked": "^5.0.2",
+    "@types/node": "^25.9.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^10.5.0",
+    "eslint-config-next": "^16.2.9",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.1",
+    "typescript": "^6.0.3"
   }
 }
