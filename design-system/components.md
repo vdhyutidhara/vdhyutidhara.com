@@ -192,7 +192,7 @@ Two zones: hire CTA section and bottom bar.
   [Hire section]              mb-16
     <hr>                      thin-rule mb-12
     <div>                     flex items-end justify-between flex-wrap
-      <p>  "Interested in hiring?"   font-heading 3.5rem light / 2.25rem mobile
+      <p>  "Interested to know more about me?"   font-heading 3.5rem light / 2.25rem mobile
       <Link>  "Resume →"             CTA link pattern
 
   [Bottom bar]
